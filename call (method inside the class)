@@ -1,0 +1,14 @@
+class vasu
+{
+    void display()
+    {
+        System.out.println("she is lucky");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		vasu obj=new vasu();
+		obj.display();
+	}
+}
