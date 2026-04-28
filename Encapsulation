@@ -1,0 +1,27 @@
+class BankAccount {
+    private int balance; // hidden data
+    // setter
+    public void setBalance(int balance) {
+        if(balance > 0) {
+            this.balance = balance;
+        }
+    }
+    // getter
+    public int getBalance() {
+        return balance;
+    }
+    public void deposit(int amount) {
+        balance += amount;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        BankAccount obj = new BankAccount();
+
+        obj.setBalance(1000);
+        obj.deposit(500);
+
+        System.out.println("Balance: " + obj.getBalance());
+    }
+}
