@@ -1,0 +1,10 @@
+class Main
+{
+ Main()
+ {
+     System.out.print("Default Constructor");
+ }
+	public static void main(String[] args) {
+	Main M=new Main();
+	}
+}
