@@ -1,0 +1,21 @@
+class student
+{
+    String name;
+    int rollno;
+    long mobileno;
+}
+public class Main
+{
+	public static void main(String[] args) {
+		student obj=new student();
+		obj.name="vasavi";
+		System.out.println("vasavi");
+		student obj2=new student();
+		obj2.name="thiroshini";
+		System.out.println("thiroshini");
+		student obj3=new student();
+		obj3.name="suvetha";
+		System.out.println("suvetha");
+		
+	}
+}
