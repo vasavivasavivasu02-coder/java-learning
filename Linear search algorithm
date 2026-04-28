@@ -1,0 +1,21 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int arr[]={3,5,1,2,4,13,3,1};
+	    int target=1,i;
+	    boolean flag=false;
+	    for(i=0;i<arr.length;i++)
+	    {
+	        if(arr[i]==target)
+	        {
+	            System.out.println(i);
+	            flag=true;
+	            break;
+	        }
+	    }
+	    if(flag==false)
+	    {
+	        System.out.print(-1);
+	    }
+	}
+}
