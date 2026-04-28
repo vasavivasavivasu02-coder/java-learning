@@ -1,0 +1,19 @@
+class vehicle{
+    int speed=60;
+}
+class car extends vehicle{
+    int speed=120;
+    void displayspeed()
+    {
+        System.out.println("child speed:"+speed);
+        System.out.println("parent speed:"+super.speed);
+    }
+}
+public class Main
+{
+    public static void main(String[]args)
+    {
+        car c=new car();
+        c.displayspeed();
+    }
+}
